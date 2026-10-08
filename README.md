@@ -1,24 +1,33 @@
 # Working Capital Performance Dashboard
 
+### Power BI | Financial Analytics | Business Intelligence
+
+**Created by Tanvi Kamat**
+
+---
+
 ##  Project Overview
 
-An interactive Power BI dashboard developed to analyze working capital performance and cash-flow efficiency across different business units.
+The **Working Capital Performance Dashboard** is an interactive Power BI dashboard designed to analyze working capital, cash-flow efficiency, and financial performance across different business units.
 
-The dashboard provides a consolidated view of receivables, payables, inventory, collections, payment terms, overdue days, and cash-risk indicators to support financial and operational decision-making.
+The dashboard provides a consolidated view of receivables, payables, inventory, collections, payment terms, overdue days, and cash-risk indicators to support data-driven financial and operational decision-making.
 
 ---
 
 ##  Business Objective
 
-The objective of this project is to identify working-capital inefficiencies and provide actionable insights into:
+The objective of this project is to analyze key working capital metrics and identify areas that may impact cash-flow efficiency and financial performance.
 
-- Accounts receivable and payable performance
-- Cash conversion and liquidity
-- Inventory aging and value
-- Customer collection performance
-- Payment terms across business units
-- Overdue payment exposure
-- Cash-risk distribution
+The dashboard helps stakeholders:
+
+- Monitor Accounts Receivable and Accounts Payable
+- Analyze cash conversion efficiency
+- Compare DSO and DPO across business units
+- Track collection performance
+- Identify overdue payments
+- Analyze inventory aging
+- Evaluate payment terms
+- Monitor cash-risk distribution
 
 ---
 
@@ -28,79 +37,99 @@ The objective of this project is to identify working-capital inefficiencies and 
 - **Microsoft Excel**
 - **Power Query**
 - **DAX**
+- **Data Cleaning & Transformation**
 - **Data Visualization**
-- **Financial & Business Analytics**
+- **Financial & KPI Analysis**
 
 ---
 
 ##  Key KPIs
 
-| KPI | Value |
-|---|---:|
-| Total Revenue | 2B |
-| Operating Cash Flow | 606M |
-| Cash Conversion Cycle | 36.24K |
+- Total Revenue
+- Operating Cash Flow
+- Cash Conversion Cycle
+- Days Sales Outstanding (DSO)
+- Days Payable Outstanding (DPO)
+- Collection Rate
+- Overdue Days
+- Payment Terms
+- Inventory Value
+- Cash Risk
 
 ---
 
-##  Dashboard Analysis
+## Dashboard Analysis
 
-### Cash Risk Distribution
-Visualizes the distribution of accounts across High, Medium, and Low cash-risk categories.
+### Working Capital Analysis
+- Receivables vs Payables by Business Unit
+- DSO vs DPO by Business Unit
+- Cash Conversion Cycle
 
-### Receivables vs Payables
-Compares accounts receivable and accounts payable across business units to identify working-capital exposure.
+### Cash & Collection Analysis
+- Cash Risk Distribution
+- Collection Rate by Business Unit
+- Overdue Days by Business Unit
+- Payment Terms by Business Unit
 
-### DSO vs DPO
-Compares Days Sales Outstanding (DSO) with Days Payable Outstanding (DPO) to evaluate the timing of cash inflows and outflows.
-
-### Inventory Aging
-Analyzes inventory value across:
+### Inventory Analysis
+- Inventory Value by Aging Category
 - Raw Materials
 - MRO
 - Components
 - Finished Goods
 
-### Collection Rate
-Compares collection performance across business units.
+### Interactive Analysis
 
-### Overdue Days
-Highlights overdue payment exposure by business unit.
-
-### Payment Terms
-Analyzes payment-term patterns across business units.
+A **Business Unit filter** allows users to dynamically analyze working capital performance across individual business units.
 
 ---
 
 ##  Key Insights
 
-- **Industrial Automation** has the highest accounts receivable and payable values among the business units.
-- Industrial Automation also shows the highest overdue-day exposure.
-- Inventory value is highest in **Raw Materials**, followed by MRO and Components.
-- Collection rates remain relatively high across all business units.
-- DSO and DPO comparison helps identify differences between cash collection and supplier payment cycles.
-- Cash-risk distribution provides a quick view of areas requiring closer monitoring.
+- Receivables are higher than payables across the analyzed business units.
+- Industrial Automation records the highest receivables and payables.
+- Collection rates remain consistently high across business units.
+- Industrial Automation has the highest overdue days.
+- Industrial Automation also shows the highest payment terms.
+- Raw Materials represent the highest inventory value among the analyzed aging categories.
+- DSO and DPO provide useful indicators of cash conversion efficiency.
 
 ---
 
-##  Repository Contents
+##  Dashboard Preview
+
+![Working Capital Performance Dashboard](Working_Capital_Performance_Dashboard.png)
+
+---
+
+##  Project Files
 
 | File | Description |
-|---|---|
+|------|-------------|
 | `Working_Capital_Performance_Dashboard.pbix` | Power BI dashboard |
-| `Working_Capital_Cash_Flow_Data.xlsx` | Dataset used for analysis |
-| `README.md` | Project documentation |
+| `Working_Capital_Cash_Flow_Data.xlsx` | Source dataset |
+| `Working_Capital_Performance_Dashboard.png` | Dashboard preview |
 
 ---
 
-##  Business Value
+##  Skills Demonstrated
 
-This dashboard enables finance and business teams to monitor working-capital performance, identify cash-flow risks, evaluate collection efficiency, and prioritize areas for improving liquidity and operational efficiency.
+- Financial Data Analysis
+- Working Capital Analysis
+- Data Cleaning
+- Data Transformation
+- Power Query
+- DAX
+- Power BI Dashboard Development
+- KPI Analysis
+- Business Intelligence
+- Data Visualization
+- Financial Reporting
 
 ---
 
-##  Author
+###  Author
 
 **Tanvi Kamat**
 
-Mechanical Engineering | Data Analytics | Power BI | Excel | SQL | Python
+Mechanical Engineering Graduate | Data Analytics & Business Intelligence
